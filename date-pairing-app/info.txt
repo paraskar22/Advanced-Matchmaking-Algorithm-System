@@ -1,0 +1,29 @@
+1.I have generate a Python script that creates a romantic_dates.json file with randomized 100,000 participants.
+
+The script will ensure:
+ Random Names (Generated dynamically)
+ Realistic Age Range (18 - 60)
+ Gender Balance (Male/Female)
+ Random Hobbies (e.g., Reading, Hiking, Cooking, Gaming)
+ Multiple Locations (Different cities)
+ Preferred Gender Matching
+
+ 2.Instead of just pairing two people, evaluate all potential matches and assign a compatibility score.
+If a person is already matched but a better match exists, suggest the better option.
+
+📌 Features in this Implementation
+Religion-based filtering
+Profession-based compatibility
+Personality type matching
+Suggesting an alternative best match
+100,000 data generation
+
+📁 date-pairing-app
+  📄 main.py               # Main script to run the matchmaking
+  📄 person.py             # Person class with compatibility logic
+  📄 matchmaker.py         # Matching algorithm
+  📄 generate-data.py      # Generates a dataset of 100,000 participants
+  📄 config.py             # Configuration parameters
+  📄 romantic_dates.json   # Input file with participant data (generated)
+  📄 matches.txt           # Output file with results
+
